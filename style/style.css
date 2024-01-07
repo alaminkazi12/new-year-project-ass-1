@@ -51,9 +51,6 @@
   width: 100%;
   margin: 120px auto 48px;
 }
-.holiday-deal-sec-content {
-  /* margin: 120px 608px 48px; */
-}
 .holiday-deal-sec-content h1 {
   color: #f00;
   text-align: center;
@@ -140,4 +137,51 @@
 .midnight-section-image {
   width: 50%;
   padding: 68px 138px 68px 0;
+}
+
+/* location section styles */
+.location-section {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    rgba(187, 27, 27, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 100%;
+  /* height: 82vh; */
+  max-width: 1320px;
+  margin: 0 auto;
+  border-radius: 16px;
+  padding: 100px 0 110px;
+}
+.location-section span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 175% */
+  text-transform: capitalize;
+}
+.location-section p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.location-section button {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  border: none;
+  margin: 18px;
 }
