@@ -70,6 +70,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  padding: 48px 0 16px;
 }
 .holiday-deal-sec-content h2 {
   color: #070211;
@@ -79,4 +80,25 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.holiday-deal-sec-image {
+  margin-top: 48px;
+}
+
+/* midnight section styles */
+.midnight-section {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/midnight-party-cover.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  max-width: 1320px;
+  width: 100%;
+  margin: 120px auto;
+  text-align: center;
+}
+.midnight-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
