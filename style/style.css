@@ -9,7 +9,8 @@
 
 /* header styles */
 .header-content {
-  background-image: url("../images/Banner-image.png");
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner-image.png");
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -26,4 +27,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-top: 227px;
+}
+.header-content h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
 }
