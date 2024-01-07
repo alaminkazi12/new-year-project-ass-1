@@ -9,7 +9,7 @@
 
 /* header styles */
 .header-content {
-  background-color: rgb(255, 0, 140);
+  background-image: url("../images/Banner-image.png");
   background-position: center;
   background-size: cover;
 }
