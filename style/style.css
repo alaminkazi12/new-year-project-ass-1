@@ -278,19 +278,25 @@
   line-height: 32px; /* 160% */
   max-width: 73%;
   margin: 0 auto;
+  padding-bottom: 64px;
 }
 /* holiday sale image grid section */
 .holiday-sale-images {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
+  align-items: start;
   background: url("../images/holiday-sale-girl.png"),
     url("../images/holiday-sale-base.png"),
     lightgray -59.98px 0px / 151.553% 100%;
   width: 100%;
   background-repeat: no-repeat;
   background-position: top right, bottom;
+  gap: 15px;
 }
-.holiday-sale-images img {
-  width: 50%;
+.holiday-sale-images-col-1 {
+  width: 55%;
+}
+.holiday-sale-images-col-2 {
+  width: 45%;
+  padding-top: 77px;
 }
