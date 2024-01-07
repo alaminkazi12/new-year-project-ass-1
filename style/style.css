@@ -40,3 +40,43 @@
   line-height: 95px; /* 131.944% */
   padding-top: 16px;
 }
+
+/* main section styles */
+
+/* holiday deal section styles */
+.holiday-deal-sec {
+  text-align: center;
+  max-width: 802px;
+  width: 100%;
+  margin: 120px auto 48px;
+}
+.holiday-deal-sec-content {
+  /* margin: 120px 608px 48px; */
+}
+.holiday-deal-sec-content h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.holiday-deal-sec-content p {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.holiday-deal-sec-content h2 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
