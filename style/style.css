@@ -389,6 +389,7 @@ form input[type="button"] {
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   padding: 24px 56px;
+  cursor: pointer;
 }
 
 /* footer section styles */
@@ -396,7 +397,7 @@ footer {
   width: 100%;
   max-width: 1600px;
   margin: 120px auto;
-  background: #070211;
+  background-color: #070211;
 }
 .footer-content {
   display: flex;
@@ -423,12 +424,14 @@ footer {
 hr {
   max-width: 1320px;
   margin: 0 auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 .social-links-container {
   display: flex;
   justify-content: center;
   gap: 24px;
   padding: 48px 0;
+  cursor: pointer;
 }
 .copyright-section {
   display: flex;
