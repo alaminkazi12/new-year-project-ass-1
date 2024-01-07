@@ -242,3 +242,40 @@
 #new-year-col-3 {
   padding-left: 118px;
 }
+
+/* Holiday section styles */
+.holiday-sale {
+  width: 100%;
+  /* height: 82vh; */
+  max-width: 1320px;
+  margin: 120px auto;
+}
+.holiday-sale-content {
+  text-align: center;
+}
+.holiday-sale-content h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sale-content h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  padding: 16px 0 28px;
+}
+.holiday-sale-content span {
+  color: #070211;
+}
+.holiday-sale-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  max-width: 73%;
+  margin: 0 auto;
+}
