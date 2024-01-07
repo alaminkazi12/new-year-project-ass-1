@@ -279,3 +279,18 @@
   max-width: 73%;
   margin: 0 auto;
 }
+/* holiday sale image grid section */
+.holiday-sale-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: url("../images/holiday-sale-girl.png"),
+    url("../images/holiday-sale-base.png"),
+    lightgray -59.98px 0px / 151.553% 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top right, bottom;
+}
+.holiday-sale-images img {
+  width: 50%;
+}
