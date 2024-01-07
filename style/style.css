@@ -390,3 +390,57 @@ form input[type="button"] {
   background: #f00;
   padding: 24px 56px;
 }
+
+/* footer section styles */
+footer {
+  width: 100%;
+  max-width: 1600px;
+  margin: 120px auto;
+  background: #070211;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 120px 0 50px;
+  color: #fff;
+}
+.footer-content p {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.footer-content ul {
+  list-style-type: none;
+}
+.footer-content ul li {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+hr {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.social-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 48px 0;
+}
+.copyright-section {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 50px 0 200px;
+}
+.copyright-section p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
