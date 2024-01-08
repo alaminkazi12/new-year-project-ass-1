@@ -399,6 +399,11 @@ footer {
   list-style-type: none;
 }
 .footer-content ul li {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  gap: 16px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
