@@ -15,7 +15,6 @@
   background-size: cover;
   border-radius: 16px;
   width: 100%;
-  /* height: 82vh; */
   max-width: 1320px;
   margin: 50px auto 0;
   text-align: center;
@@ -25,9 +24,7 @@
   text-align: center;
   font-family: Merriweather;
   font-size: 32px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   padding-top: 177px;
 }
 .header-content h2 {
@@ -35,9 +32,8 @@
   text-align: center;
   font-family: Merriweather;
   font-size: 72px;
-  font-style: normal;
   font-weight: 900;
-  line-height: 95px; /* 131.944% */
+  line-height: 95px;
   padding-top: 16px;
   padding-bottom: 177px;
 }
@@ -56,18 +52,14 @@
   text-align: center;
   font-family: Inter;
   font-size: 88px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .holiday-deal-sec-content p {
   color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   padding: 48px 0 16px;
 }
 .holiday-deal-sec-content h2 {
@@ -75,9 +67,7 @@
   text-align: center;
   font-family: Inter;
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 .holiday-deal-sec-image {
   margin-top: 48px;
@@ -110,7 +100,6 @@
   color: #fff;
   font-family: Merriweather;
   font-size: 55px;
-  font-style: normal;
   font-weight: 900;
   line-height: 88px; /* 137.5% */
   letter-spacing: 7.04px;
@@ -119,7 +108,6 @@
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 30px; /* 166.667% */
   padding: 24px 0;
@@ -151,7 +139,6 @@
     rgba(255, 0, 0, 0) 100%
   );
   width: 100%;
-  /* height: 82vh; */
   max-width: 1320px;
   margin: 0 auto;
   border-radius: 16px;
@@ -162,16 +149,14 @@
   text-align: center;
   font-family: Inter;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 56px; /* 175% */
+  line-height: 56px;
   text-transform: capitalize;
 }
 .location-section p {
   color: #070211;
   font-family: Inter;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
@@ -196,7 +181,6 @@
   align-items: center;
   gap: 70px;
   width: 100%;
-  /* height: 82vh; */
   max-width: 1320px;
   margin: 120px auto;
   text-align: left;
@@ -221,9 +205,8 @@
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 160% */
+  line-height: 32px;
   padding-bottom: 43px;
 }
 .new-best-offer-col h4 {
@@ -246,7 +229,6 @@
 /* Holiday section styles */
 .holiday-sale {
   width: 100%;
-  /* height: 82vh; */
   max-width: 1320px;
   margin: 120px auto;
 }
